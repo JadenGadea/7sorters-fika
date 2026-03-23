@@ -52,7 +52,7 @@ export default async function CharacterPage({ params }: Props) {
 
         <p className="text-gray-700 leading-relaxed">{character.description}</p>
 
-        <SwishButton characterName={character.name} color={character.color} />
+        <SwishButton characterId={character.id} characterName={character.name} color={character.color} />
 
         <p className="text-xs text-gray-400 max-w-xs">
           Pengarna går till{" "}
