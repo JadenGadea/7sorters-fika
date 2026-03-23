@@ -7,7 +7,7 @@ export interface Character {
   color: string;
 }
 
-export const SWISH_NUMBER = "1234567890"; // Replace with your real Swish number
+export const SWISH_NUMBER = "1239002635"; // Äldrekontakt 90-konto
 export const DEFAULT_AMOUNT = 20;
 
 export const characters: Character[] = [

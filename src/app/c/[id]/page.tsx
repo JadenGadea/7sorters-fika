@@ -55,8 +55,17 @@ export default async function CharacterPage({ params }: Props) {
         <SwishButton characterName={character.name} color={character.color} />
 
         <p className="text-xs text-gray-400 max-w-xs">
-          Pengarna går till fika-träffar för äldre som känner sig ensamma. Tack
-          för att du matar {character.name}! ❤️
+          Pengarna går till{" "}
+          <a
+            href="https://www.aldrekontakt.se"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-600"
+          >
+            Äldrekontakt
+          </a>{" "}
+          — en organisation som hjälper äldre ur ensamhet. Tack för att du matar{" "}
+          {character.name}! ❤️
         </p>
       </div>
     </main>
